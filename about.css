@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/09/Free-Download-Album-Cover-Background-.jpg'); /* Replace 'cover-image.jpg' with your actual cover image path */
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 100px 20px; /* Adjust padding for better visibility */
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #333;
+    animation: colorChange 2s infinite alternate;
+}
+
+@keyframes colorChange {
+    from {
+        color: #333;
+    }
+    to {
+        color: #ff5733; /* Change to any color you like */
+    }
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    animation: shrink 2s infinite alternate;
+}
+
+@keyframes shrink {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.8);
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+}
+
